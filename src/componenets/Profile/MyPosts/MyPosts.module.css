@@ -1,0 +1,26 @@
+
+
+
+  .butt {
+    display: block;
+   /* width: 13%; */
+  
+    /* margin-top: 15px; */
+    background-color: #027F47;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+  }
+  .write_post {
+    padding-left: 40px;
+  }
+  .form_block {
+    display: flex;
+    justify-content: space-between;
+  }
+  .block_butt {
+    margin-top: 30px;
+  }
+    
+  

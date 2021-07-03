@@ -1,0 +1,7 @@
+
+.app-wrapper-content {
+    grid-area: con;
+    overflow-y: auto;
+    background-color: #FFFCA6;
+  }
+  

@@ -1,0 +1,28 @@
+   
+
+.posts {
+  margin-top: 40px;
+  padding-left: 35px;
+}
+
+
+  .item {
+    display: flex;
+    margin-bottom: 35px;
+  }
+
+.sign {
+  
+    width: 40px;
+    height: 40px;
+    background-color: #B68C19;
+    border-radius: 50%;
+  }
+
+  
+  .mess_text {
+    margin-top: 0;
+    margin-left: 15px;
+    color: tomato;
+    
+  }

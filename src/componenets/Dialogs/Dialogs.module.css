@@ -1,0 +1,68 @@
+
+.dialogs {
+    display: flex;
+}
+.users {
+    flex: 1 1 33%;
+    border-right: 2px solid gray;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.messages {
+    flex: 1 1 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.name {
+    font-size: 0.9rem;
+    color: gray;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.mess {
+    position: relative;
+    font-size: 0.9rem;
+    color: gray;
+    padding: 15px 25px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-bottom: 35px;
+}
+.mess::before {
+    content: 	"\3C";
+    position: absolute;
+    font-size: 2.5rem;
+    color: grey;
+    opacity: 0.5;
+    top: -35px;
+    left: -22px;
+}
+.text_input {
+    margin-top: 25px;
+}
+.butt {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: white;
+    background-color: grey;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: block;
+    cursor: pointer;
+
+}

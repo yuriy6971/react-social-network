@@ -1,0 +1,36 @@
+.header {
+    grid-area: h;
+    background-color: #07B568;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pics {
+    height: 103px;
+    /* opacity: 0.3; */
+  }
+  .login_block {
+    margin-right: 30px;
+    font-size: 2rem;
+    
+  }
+.login_block > a {
+  color: white;
+  text-decoration: none;
+}
+.login_text {
+  font-size: 2rem;
+  font-style: italic;
+  color: tomato;
+  margin-right: 20px;
+}
+.log_out {
+  display: flex;
+}
+
+.log_butt {
+  height: 30px;
+  font-size: 1.1rem;
+  padding: 5px 8px;
+  margin-top: 40px;
+}

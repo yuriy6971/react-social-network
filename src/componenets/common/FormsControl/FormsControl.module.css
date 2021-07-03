@@ -1,0 +1,13 @@
+
+.form_control {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.error {
+    border: 2px solid red;
+}
+.text_error {
+    color: tomato;
+    font-size: 1.5rem;
+    margin: 0;
+}

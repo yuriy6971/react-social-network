@@ -1,0 +1,108 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #EAEAEA;
+    padding-top: 20px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    color: gray;
+    
+ 
+}
+
+.user_foto {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    
+}
+.loader {
+    width: 40px;
+    height: 40px;
+}
+.user_info {
+    width: 550px;
+    height: 75px;
+    margin-left: 50px;
+    
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.names_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.location_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name {
+    font-weight: 600;
+    
+}
+.butt_followed {
+    position: relative;
+}
+.butt {
+    position: absolute;
+    padding: 7px 10px;
+    background-color: #06B567;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+}
+.pages {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+.page_number {
+    display: inline;
+    margin-left: 15px;
+    font-size: 1.5rem;
+    color: green;
+    cursor: pointer;
+}
+.selected_page {
+    font-weight: 800;
+    color: red;
+    cursor: pointer;
+    
+}
+.line {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.muv_pages {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: green;
+  background-color: honeydew;
+  padding: 3px 5px;
+  border-radius: 4px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+.stop_muv {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color:transparent;
+    background-color: honeydew;
+    padding: 3px 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+    border: none;
+    
+}
+
